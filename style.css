@@ -1,9 +1,8 @@
-
-.background{
-background-color: #2e2d4c;
-background-image: url("./background-foods-v4.png");
-background-attachment: fixed;
-margin-bottom: auto;
+.background {
+  background-color: #2e2d4c;
+  background-image: url("./background-foods-v4.png");
+  background-attachment: fixed;
+  margin-bottom: auto;
 }
 
 .conteudo {
@@ -19,11 +18,15 @@ margin-bottom: auto;
   text-align: center;
   color: #fff;
   margin: auto;
-  padding: 30px;
+  padding: 40px;
+  /* margin-bottom: 20%; */
+  /* clip-path: inset(0);
+  position:sticky; */
 }
 
 .logo img {
   width: 220px;
+  padding-top: 10%;
 }
 
 .navigation li {
@@ -64,38 +67,62 @@ margin-bottom: auto;
   margin-top: 50px;
 }
 
-.habilidades label{
-    width: 280px;
-    display: inline-block;
+.habilidades label {
+  width: 280px;
+  display: inline-block;
 }
 
-.fotos img{
+.fotos img {
   width: 460px;
   height: 300px;
   border-radius: 8px;
   filter: grayscale(0.6);
 }
 
-.fotos img:hover{
-  filter: none ;
+.fotos img:hover {
+  filter: none;
 }
 
-.btn-inicio>a{
+.btn-inicio > a {
   font-size: 3rem;
-  background-color: white ;
-  border-radius:50%;
+  background-color: white;
+  border-radius: 50%;
   color: #100d66;
-  position:fixed;
+  position: fixed;
   bottom: 60px;
   right: 20px;
   opacity: 0.8;
 }
 
-.footer{
+.footer {
   position: relative;
   padding: 120px;
-  background-color: #a5227e;
   color: white;
   text-align: center;
+  font-size: 20px;
+}
+/* .logo > img {
+  position: fixed;
+  top: 0%;
+  left: 44%;
+} */
 
+.logotipo {
+  color: black;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+  transform: translate(50%);
+  font-size: 1.8rem;
+  padding-top: 20px;
+}
+
+.logomarca.fundo {
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-right: 50%;
+  margin-top: -50px;
+  transform: translate(50%) rotate(45deg);
 }
