@@ -27,6 +27,7 @@
 .logo img {
   width: 220px;
   padding-top: 10%;
+  margin-left: 32%;
 }
 
 .navigation li {
@@ -125,4 +126,12 @@
   margin-right: 50%;
   margin-top: -50px;
   transform: translate(50%) rotate(45deg);
+}
+
+@media (max-width: 768px) {
+  .conteudo {
+    margin: 0%;
+    margin-left: 14%;
+    width: 60%;
+  }
 }
